@@ -1,0 +1,32 @@
+{
+  "experiment": "L3_res_K6_a2000_l0500",
+  "model_desc": "Residual FourierKAN (K=6, \u03b1\u2080=0.2, \u03bb=0.05)",
+  "kafn_config": {
+    "num_harmonics": 6,
+    "mode": "residual",
+    "init_alpha": 0.2
+  },
+  "lambda_alpha": 0.05,
+  "groups": {
+    "electronic": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    },
+    "Thermodynamic_and_physical": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    },
+    "Optical_and_dielectric": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    },
+    "Thermal": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    },
+    "Gas_Permeability": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    }
+  }
+}

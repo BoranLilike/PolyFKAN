@@ -1,0 +1,28 @@
+{
+  "experiment": "L3_rep_K3",
+  "model": "FourierKAN Replace (K=3)",
+  "kafn_config": {
+    "num_harmonics": 3,
+    "mode": "replace",
+    "init_alpha": 0.1
+  },
+  "lambda_alpha": 0.0,
+  "total_time_seconds": 34246.58560156822,
+  "total_time_minutes": 570.7764266928037,
+  "groups": {
+    "Gas_Permeability": {
+      "optimal_capacity": 2,
+      "optimal_hps": {
+        "group": "Gas_Permeability",
+        "optimal_capacity": 2,
+        "lr": 0.004999999999999999,
+        "batch_size": 64,
+        "dropout": 0.05,
+        "best_val_rmse": 0.033
+      },
+      "best_val_rmse": 0.033,
+      "ensemble_trained": true
+    }
+  },
+  "skip_ensemble": false
+}

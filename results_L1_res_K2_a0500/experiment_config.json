@@ -1,0 +1,26 @@
+{
+  "exp_name": "L1_res_K2_a0500",
+  "model_desc": "Residual FourierKAN (K=2, \u03b1\u2080=0.05, \u03bb=0.0)",
+  "kan_mode": "residual",
+  "num_harmonics": 2,
+  "init_alpha": 0.05,
+  "lambda_alpha": 0.0,
+  "random_seed": 53,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "hp_ncalls": 10,
+  "hp_epochs": 60,
+  "n_folds": 0,
+  "submodel_epochs": 0,
+  "max_batch_size": 512,
+  "capacity_range": [
+    2,
+    3,
+    4
+  ],
+  "skip_ensemble": true,
+  "activation": "silu",
+  "featurization": "monocycle",
+  "augmentation": false,
+  "timestamp": "2026-04-26T17:28:04.543554"
+}

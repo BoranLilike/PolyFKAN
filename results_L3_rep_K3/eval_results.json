@@ -1,0 +1,32 @@
+{
+  "experiment": "L3_rep_K3",
+  "model_desc": "FourierKAN Replace (K=3)",
+  "kafn_config": {
+    "num_harmonics": 3,
+    "mode": "replace",
+    "init_alpha": 0.0
+  },
+  "lambda_alpha": null,
+  "groups": {
+    "electronic": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    },
+    "Thermodynamic_and_physical": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    },
+    "Optical_and_dielectric": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    },
+    "Thermal": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    },
+    "Gas_Permeability": {
+      "status": "error: mean() received an invalid combination of arguments - got (out=NoneType, axis=NoneType, dtype=NoneType, ), but expected one of:\n * (*, torch.dtype dtype)\n * (tuple of ints dim, bool keepdim, *, torch.dtype dtype)\n * (tuple of names dim, bool keepdim, *, torch.dtype dtype)\n",
+      "n_models": -1
+    }
+  }
+}

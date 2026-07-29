@@ -1,0 +1,8 @@
+{
+  "group": "Gas_Permeability",
+  "optimal_capacity": 2,
+  "lr": 0.0014991224231235482,
+  "batch_size": 101,
+  "dropout": 0.05,
+  "best_val_rmse": 0.042
+}

@@ -1,0 +1,8 @@
+{
+  "group": "Thermal",
+  "optimal_capacity": 2,
+  "lr": 0.0004881221458386187,
+  "batch_size": 214,
+  "dropout": 0.05482504527040911,
+  "best_val_rmse": 0.07
+}

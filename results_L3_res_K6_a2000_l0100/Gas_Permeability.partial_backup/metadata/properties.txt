@@ -1,0 +1,6 @@
+p_exp_CH4
+p_exp_CO2
+p_exp_H2
+p_exp_He
+p_exp_N2
+p_exp_O2

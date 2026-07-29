@@ -1,0 +1,8 @@
+{
+  "group": "electronic",
+  "optimal_capacity": 2,
+  "lr": 0.0013994757894473977,
+  "batch_size": 124,
+  "dropout": 0.24673992773668874,
+  "best_val_rmse": 0.057
+}

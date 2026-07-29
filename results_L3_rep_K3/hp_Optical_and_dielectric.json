@@ -1,0 +1,8 @@
+{
+  "group": "Optical_and_dielectric",
+  "optimal_capacity": 5,
+  "lr": 0.0006392833521609328,
+  "batch_size": 64,
+  "dropout": 0.05,
+  "best_val_rmse": 0.088
+}

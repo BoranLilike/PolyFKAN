@@ -1,0 +1,80 @@
+{
+  "experiment": "L2_res_K6_a0500",
+  "model": "Residual FourierKAN (K=6, \u03b1\u2080=0.05, \u03bb=0.0)",
+  "kafn_config": {
+    "num_harmonics": 6,
+    "mode": "residual",
+    "init_alpha": 0.05
+  },
+  "lambda_alpha": 0.0,
+  "total_time_seconds": 4315.481542825699,
+  "total_time_minutes": 71.92469238042831,
+  "groups": {
+    "electronic": {
+      "optimal_capacity": 2,
+      "optimal_hps": {
+        "group": "electronic",
+        "optimal_capacity": 2,
+        "lr": 0.0008937784301310862,
+        "batch_size": 64,
+        "dropout": 0.05,
+        "best_val_rmse": 0.052
+      },
+      "best_val_rmse": 0.052,
+      "ensemble_trained": false
+    },
+    "Thermodynamic_and_physical": {
+      "optimal_capacity": 2,
+      "optimal_hps": {
+        "group": "Thermodynamic_and_physical",
+        "optimal_capacity": 2,
+        "lr": 0.0013994757894473977,
+        "batch_size": 124,
+        "dropout": 0.24673992773668874,
+        "best_val_rmse": 0.169
+      },
+      "best_val_rmse": 0.169,
+      "ensemble_trained": false
+    },
+    "Optical_and_dielectric": {
+      "optimal_capacity": 3,
+      "optimal_hps": {
+        "group": "Optical_and_dielectric",
+        "optimal_capacity": 3,
+        "lr": 0.0005279995041214269,
+        "batch_size": 64,
+        "dropout": 0.21898734016297272,
+        "best_val_rmse": 0.086
+      },
+      "best_val_rmse": 0.086,
+      "ensemble_trained": false
+    },
+    "Thermal": {
+      "optimal_capacity": 2,
+      "optimal_hps": {
+        "group": "Thermal",
+        "optimal_capacity": 2,
+        "lr": 0.0013994757894473977,
+        "batch_size": 124,
+        "dropout": 0.24673992773668874,
+        "best_val_rmse": 0.078
+      },
+      "best_val_rmse": 0.078,
+      "ensemble_trained": false
+    },
+    "Gas_Permeability": {
+      "optimal_capacity": 2,
+      "optimal_hps": {
+        "group": "Gas_Permeability",
+        "optimal_capacity": 2,
+        "lr": 0.0027679739659053387,
+        "batch_size": 64,
+        "dropout": 0.05,
+        "best_val_rmse": 0.034
+      },
+      "best_val_rmse": 0.034,
+      "ensemble_trained": false
+    }
+  },
+  "skip_ensemble": true
+}

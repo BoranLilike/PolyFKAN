@@ -1,0 +1,8 @@
+{
+  "group": "Thermodynamic_and_physical",
+  "optimal_capacity": 3,
+  "lr": 0.004856893091417703,
+  "batch_size": 125,
+  "dropout": 0.28456445475830594,
+  "best_val_rmse": 0.175
+}

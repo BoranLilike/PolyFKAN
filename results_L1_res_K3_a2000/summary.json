@@ -1,0 +1,28 @@
+{
+  "experiment": "L1_res_K3_a2000",
+  "model": "Residual FourierKAN (K=3, \u03b1\u2080=0.2, \u03bb=0.0)",
+  "kafn_config": {
+    "num_harmonics": 3,
+    "mode": "residual",
+    "init_alpha": 0.2
+  },
+  "lambda_alpha": 0.0,
+  "total_time_seconds": 288.49921464920044,
+  "total_time_minutes": 4.80832024415334,
+  "groups": {
+    "electronic": {
+      "optimal_capacity": 2,
+      "optimal_hps": {
+        "group": "electronic",
+        "optimal_capacity": 2,
+        "lr": 0.0013994757894473977,
+        "batch_size": 124,
+        "dropout": 0.24673992773668874,
+        "best_val_rmse": 0.066
+      },
+      "best_val_rmse": 0.066,
+      "ensemble_trained": false
+    }
+  },
+  "skip_ensemble": true
+}
